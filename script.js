@@ -44,15 +44,135 @@
 
 
 
-let city = prompt("Enter a city name");
-if (city === "delhi") {
-    monument = "Red Fort";
-} else if (city === "agra") {
-    monument = "Taj Mahal";
-} else if (city === "jaipur") {
-    monument = "Jal Mahal";
-} else {
-    monument = "Sorry, no monument information available for this city.";
+// let city = prompt("Enter a city name");
+// if (city === "delhi") {
+//     monument = "Red Fort";
+// } else if (city === "agra") {
+//     monument = "Taj Mahal";
+// } else if (city === "jaipur") {
+//     monument = "Jal Mahal";
+// } else {
+//     monument = "Sorry, no monument information available for this city.";
+// }
+
+// console.log("The monument in " + city + " is: " + monument);
+
+
+
+
+// while loop
+
+// print 1 to 10
+
+
+// let i=1
+// while(i<=10){
+//     console.log(i);
+//     i++
+// }
+
+
+// even and odd number upto 10
+// let i=1
+// while(i<=10){
+//     if(i%2==0){
+//         console.log(i);
+//     }
+//     i++
+// }
+
+
+// do while
+
+
+// let i=1
+// do{
+//     console.log(i);
+//     i++
+// }
+// while(i<=10)
+
+
+// for loop
+
+// for(let i=1;i<=10;i++){
+//     console.log(i);
+// }
+
+// for in loop
+
+// let l=[10,20,30,40]
+// for(i in l){
+//     console.log(l[i]);
+// }
+
+
+
+// for of loop
+
+
+// let l=[10,20,30,40]
+// for(i of l){
+//     console.log(i);
+// }
+
+
+// dictionary in  js
+
+// let d={
+//     name:"ram",
+//     age:20,}
+// }
+// for(i in d){
+//     console.log(d[i]);
+// }
+// }
+// for(i of d){
+//     console.log(d[i]);
+// }
+
+
+
+// let a = parseInt(prompt("Enter a number"));
+// let b = parseInt(promt("enter a number"));
+// console.log(a,b);
+// console.log(typeof a,b);
+
+
+
+// multiplicatin taple of a digit
+
+// let a = parseInt(prompt("Enter a number"));
+// for(i=1;i<=10;i++){
+//     console.log(a*i);
+// }
+
+
+// let num = parseInt(prompt("Enter a number"));
+// for ( i = 1; i <= 10; i++) {
+//     console.log(`${num} x ${i} = ${num * i}`);
+// }
+
+
+
+
+
+// let num =  parseInt(prompt("Enter a number")); 
+// let i = 1;
+
+// while (i <= 10) {
+//     console.log(`${num*i} x ${i} = ${num}`);
+//     i++;
+// }
+
+
+// multiplicatin taples of a in between digits
+
+let a = parseInt(prompt("Enter a number"));
+let b = parseInt(prompt("Enter a number"));
+for(i=a;i<=b;i++){
+    for(j=1;j<=10;j++){
+    console.log(`${i} x ${j} = ${i*j}`);
+}
 }
 
-console.log("The monument in " + city + " is: " + monument);

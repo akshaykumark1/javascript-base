@@ -3,7 +3,7 @@ main points
 
 javascript keywords
 1.var
-2. get
+2. let
 3.const
 
 
