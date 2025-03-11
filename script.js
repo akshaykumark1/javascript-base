@@ -168,11 +168,196 @@
 
 // multiplicatin taples of a in between digits
 
-let a = parseInt(prompt("Enter a number"));
-let b = parseInt(prompt("Enter a number"));
-for(i=a;i<=b;i++){
-    for(j=1;j<=10;j++){
-    console.log(`${i} x ${j} = ${i*j}`);
-}
-}
+// let a = parseInt(prompt("Enter a number"));
+// let b = parseInt(prompt("Enter a number"));
+// for(i=a;i<=b;i++){
+//     for(j=1;j<=10;j++){
+//     console.log(`${i} x ${j} = ${i*j}`);
+// }
+// }
 
+
+
+
+// functions 
+
+
+// fun1('akshay',20);
+// function fun1(name,age){
+//     console.log(name,age);
+// }
+
+
+// nameless function
+
+// const data = function(a,b){
+//     console.log(a,b);
+// }
+
+// data('abc',22);
+
+
+
+// // arrow function
+
+// const data = () => {
+//     console.log('hello');
+// }
+// data()
+
+// // sum of natural numbers
+// let a = parseInt(prompt("enter the number"));
+// let b = parseInt(prompt("enter the number"));
+// let sum = 0;
+// for(let i=a;i<=b;i++){
+//     sum += i;
+// }
+// console.log(sum);
+
+// let a = parseInt(prompt("enter the number"));
+// let b = parseInt(prompt("enter the number"));
+// let i=1
+// while(i<=10){
+//     if(i%2==0){
+//         console.log(i);
+//     }
+//     i++
+// }
+
+
+
+
+
+// reverse of a String
+// Reverse of a String
+// 1. Take input from the user
+// 2. Split the string into an array of characters
+// 3. Reverse the array
+// 4. Join the array back into a string
+// 5. Print the reversed string
+
+// let str = prompt("Enter a string");
+// let reversed = str.split("").reverse().join("");
+// console.log(reversed);
+
+// sum of Digit
+// let num = parseInt(prompt("Enter a number"));
+// let sum = 0;
+// while(num > 0){
+//     let lastDigit = num % 10;
+//     sum += lastDigit;
+//     num = Math.floor(num / 10);
+// }
+// console.log(sum);
+
+// // factorial
+// let num = parseInt(prompt("Enter a number"));
+// let fact = 1;
+// for(let i=1;i<=num;i++){
+//     fact *= i;
+// }
+// console.log(fact);
+
+// // fibanacci
+// let num = parseInt(prompt("Enter a number"));
+// let a = 0;
+// let b = 1;
+// let fibo = [a,b];
+// for(let i=2;i<=num;i++){
+//     let c = a + b;
+//     fibo.push(c);
+//     a = b;
+//     b = c;
+// }
+// console.log(fibo);
+
+// // starting ending input push it into an array
+// let start = parseInt(prompt("Enter a starting number"));
+// let end = parseInt(prompt("Enter a ending number"));
+// let arr = [];
+// for(let i=start;i<=end;i++){
+//     arr.push(i);
+// }
+// console.log(arr);
+
+
+
+
+
+// example
+
+// let p = document.getElementsByTagName("p")
+// console.log(p);
+
+// let a = document.getElementsByClassName("p")[1]
+// console.log(a);
+
+// let a = document.getElementById("p1")
+// console.log(a);
+ 
+// a.innerHTML = "hello world"
+// a.innerHTML = `<a href="">link</a>`
+
+// example of dom event
+// function getdata(){
+//     let a = document.getElementById("input")
+//     console.log(a.value);
+//     document.getElementById("p1").innerHTML = (a.value)
+    
+// }
+
+
+
+// function add(){
+//     let a = document.getElementById("input1")
+//     let b = document.getElementById("input2")
+//     let c = parseInt(a.value) + parseInt(b.value)
+//     console.log(c.value);
+//     document.getElementById("d1").innerHTML = (c)
+// }
+// function sub(){
+//     let a = document.getElementById("input1")
+//     let b = document.getElementById("input2")
+//     let c = parseInt(a.value) - parseInt(b.value)
+//     console.log(c.value);
+//     document.getElementById("d1").innerHTML = (c)
+// }
+// function mul(){
+//     let a = document.getElementById("input1")
+//     let b = document.getElementById("input2")
+//     let c = parseInt(a.value) * parseInt(b.value)
+//     console.log(c.value);
+//     document.getElementById("d1").innerHTML = (c)
+// }
+// function div(){
+//     let a = document.getElementById("input1")
+//     let b = document.getElementById("input2")
+//     let c = parseInt(a.value) / parseInt(b.value)
+//     console.log(c.value);
+//     document.getElementById("d1").innerHTML = (c)
+// }
+// function per(){
+//     let a = document.getElementById("input1")
+//     let b = document.getElementById("input2")
+//     let c = parseInt(a.value) % parseInt(b.value)
+//     console.log(c.value);
+//     document.getElementById("d1").innerHTML = (c)
+//     }
+
+
+// // reverce a String
+
+// let str = prompt("Enter a string");
+// // reverce a String
+// // first split the string into an array of characters
+// // second reverse the array
+// // third join the array back into a string
+// let reversed = str.split("").reverse().join("");
+// console.log(reversed);
+
+
+function reverse(){
+let a = document.getElementById("input")
+let b = a.value.split("").reverse().join("")
+document.getElementById("result").innerHTML = b
+}

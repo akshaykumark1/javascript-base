@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,8 +6,67 @@
     <title>Document</title>
 </head>
 <body>
-  <h3> maths</h3>
+<!-- <p class="p" id="p1">hello</p>
+<h1 class="p">welcome</h1>
+<input type="text" id = "input">
+<button onclick="getdata()">click</button>
   
+ -->
+
+ <!-- <input type="text" id="input1" placeholder="no1:">
+ <br>
+ <br>
+ <input type="text" id="input2" placeholder="no:2">
+<button onclick="add()">+</button>
+<button onclick="sub()">-</button>
+<button onclick="mul()">*</button>
+<button onclick="div()">/</button>
+<button onclick="per()">%</button>
+<h1 id="d1">result</h1>
+ -->
+<!-- <h1>hello</h1> -->
+
+<!-- <input type="text" id="input">
+<button onclick="reverse()">Reverse</button>
+<p id ="result"></p>
+
     <script src="script.js"></script>
+</body>
+</html> --> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input to Dictionary</title>
+</head>
+<body>
+    <label for="boxNo">Box No:</label>
+    <input type="text" id="boxNo">
+    
+    <label for="name">Name:</label>
+    <input type="text" id="name">
+    
+    <label for="age">Age:</label>
+    <input type="text" id="age">
+    
+    <button id="addButton">Add</button>
+    
+    <script>
+        document.getElementById("addButton").addEventListener("click", function() {
+            let boxNo = document.getElementById("boxNo").value;
+            let name = document.getElementById("name").value;
+            let age = document.getElementById("age").value;
+            
+            let data = {
+                "boxNo": boxNo,
+                "name": name,
+                "age": age
+            };
+            
+            console.log(data);
+        });
+    </script>
 </body>
 </html>
